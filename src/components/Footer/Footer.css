@@ -1,0 +1,33 @@
+.footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer p {
+  margin: 8px 0;
+}
+
+.footer .social-links {
+  margin: 15px 0;
+}
+
+.footer .social-links a {
+  margin: 0 12px;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #38bdf8;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  color: #64748b;
+}
