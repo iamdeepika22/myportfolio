@@ -4,21 +4,21 @@ const projectList = [
   {
     id: 1,
     title: "Smart Farm",
-    image: "assets/projects/AgriNet.png",
+    image: "/myportfolio/assets/projects/AgriNet.png",
     description:
       "A website that provides information about farming, including climate conditions, NPK analysis, disease prediction, and fertilizer recommendations",
   },
   {
     id: 2,
     title: "Key Press",
-    image: "assets/projects/keypress.png",
+    image: "/myportfolio/assets/projects/keypress.png",
     description:
       "Analyze YouTube product reviews to help users make better purchase decisions.",
   },
   {
     id: 3,
     title: "Dash",
-    image: "assets/projects/.png",
+    image: "/myportfolio/assets/projects/.png",
     description:
       "Custom Unix shell supporting command execution, piping, and file operations.",
   },
