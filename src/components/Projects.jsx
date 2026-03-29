@@ -13,7 +13,7 @@ const projectList = [
     title: "Key Press",
     image: "/myportfolio/assets/projects/keypress.png",
     description:
-      "Analyze YouTube product reviews to help users make better purchase decisions.",
+      "Reusable keypress component development",
   },
   {
     id: 3,

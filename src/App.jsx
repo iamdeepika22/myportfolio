@@ -2,17 +2,23 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import { Suspense, lazy } from "react";
+import LoadingIcon from './components/Loading';
+
+const Home = lazy(()=>import('./components/Home'));
+const About = lazy(()=>import('./components/About'));
+const Projects = lazy(()=>import('./components/Projects'));
+const Contact  = lazy(()=>import('./components/Contact'));
+
+
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <div className="container">
+        <Suspense fallback={<LoadingIcon/>}>
+          <div className="container">
           <Routes>
             <Route path="*" element={<Home />} />
             <Route path="/home" element={<Home />} />
@@ -21,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        </Suspense>
       </BrowserRouter>
       <Footer />
     </div>
