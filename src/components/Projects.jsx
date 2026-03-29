@@ -3,10 +3,10 @@ import React from "react";
 const projectList = [
   {
     id: 1,
-    title: "Smart Farm",
-    image: "/myportfolio/assets/projects/AgriNet.png",
+    title: "Inforiver Admin Portal",
+    image: "/myportfolio/assets/projects/Adminportal.png",
     description:
-      "A website that provides information about farming, including climate conditions, NPK analysis, disease prediction, and fertilizer recommendations",
+      "Inforiver console has options to manage your profile, users' details, subscriptions, export writeback logs, metrics, reports, and review/configure onboarding actions.",
   },
   {
     id: 2,
@@ -17,10 +17,10 @@ const projectList = [
   },
   {
     id: 3,
-    title: "Dash",
-    image: "/myportfolio/assets/projects/.png",
+    title: "Smart Farm",
+    image: "/myportfolio/assets/projects/AgriNet.png",
     description:
-      "Custom Unix shell supporting command execution, piping, and file operations.",
+      "A website that provides information about farming, including climate conditions, NPK analysis, disease prediction, and fertilizer recommendations",
   },
 ];
 
